@@ -1,0 +1,76 @@
+.shopcategory-banner{
+    height: 50vh;
+    background: linear-gradient(180deg, #fde1ff, #e1ffea22 60%);
+    display: flex;
+}
+.shopcategory-banner-left{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    padding-left: 180px;
+    line-height: 1.1;
+}
+.shopcategory-banner h1{
+    color: orangered;
+    font-size: 80px;
+    font-weight: 400;
+}
+.shopcategory-banner h4{
+    color: orangered;
+    font-size: 80px;
+    font-weight: 400;
+}
+.shopcategory-banner button{
+
+    color: white;
+    font-size: 20px;
+    height: 60px;
+    width: 200px;
+    font-weight: 40px;
+    background-color: orangered;
+    border-radius: 60px;
+    border-color: orangered;
+    }
+.shopcategory-indexSort{
+display: flex;
+margin: 0px 170px;
+justify-content: space-between;
+align-items: center;
+  
+}
+.shopcategory-sort{
+padding: 20px 20px;
+margin: 50px -280px;
+border: 1px solid #888;
+border-radius: 30px;   
+height: 20px;
+width: 90px;
+ display: flex;  
+
+}
+.shopcategory-indexSort p span{
+    font-weight: 400;
+    
+}
+.shopcategory-products{
+    margin: 20px 170px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    row-gap: 80px;
+
+}
+.shopcategory-loadmore{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 150px auto;
+    width: 233px;
+    height: 69px;
+    border-radius: 75px;
+    background: #ededed;
+    color: #787878;
+    font-size: 18px;
+    font-weight: 500;
+}
